@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded resumes (may contain personal information)
+uploads/*
+!uploads/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project-generated files
+project_structure.txt
+*.log
